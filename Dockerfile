@@ -25,6 +25,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update; \
     apt-get install -y openssl \
       build-essential \
+      wget \
       xmlsec1 \
       libssl-dev \
       python3 \
